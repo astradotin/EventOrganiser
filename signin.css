@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(wall.jpg);
+  height: 100vh;
+
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+
+}
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: white;
+  color: black;
+}
+ul li.active a{
+  background-color: white;
+  color: black;
+}
+
+.main{
+  max-width: 1500px;
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  top: 2%;
+  left: 1%;
+}
+
+
+.title h1{
+  color: white;
+  font-size: 40px;
+
+}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+button:hover {
+  opacity: 0.8;
+}
